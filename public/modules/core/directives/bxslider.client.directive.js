@@ -23,7 +23,7 @@ angular.module('core').directive('topslider', [
 						  // '</div></div>' + 
 						  // '</li>' +
 					 '</ul>',
-	       link: function(scope, elm, attrs) {
+	       link: function($, scope, elm, attrs) {
 	          elm.ready(function() {    
 	               $(elm).bxSlider({
                			mode: 'fade',

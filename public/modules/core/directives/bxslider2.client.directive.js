@@ -12,7 +12,7 @@ angular.module('core').directive('startslider', [
 	                     '<div class="clearfix"></div>' +
 	                   '</li>' +
 	                  '</ul>',
-	       link: function(scope, elm, attrs) {
+	       link: function($, scope, elm, attrs) {
 	          elm.ready(function() {    
 	               $(elm).bxSlider({
 	                    mode: 'vertical',

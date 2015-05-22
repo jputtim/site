@@ -81,7 +81,7 @@ body{
 }
 .red-section {
     background-color: #d90000;
-    margin-top: 2	0px;
+    /*margin-top: 0px;*/
     padding: 20px 0 !important;
 }
 .section-container {
@@ -137,22 +137,6 @@ body{
 .parallax-image {
     z-index: 9999;
 }
-#parallax1 {
-    background-image: url(../images/demos/parallax_01.jpg);
-}
-#parallax2 {
-    background-image: url(../images/demos/parallax_02.jpg);
-}
-#parallax3 {
-    background-image: url(../images/demos/parallax_03.jpg);
-}
-#parallax4 {
-    background-image: url(../images/demos/parallax_04.jpg);
-}
-#parallax5 {
-    background-image: url(../images/demos/parallax_05.jpg);
-    min-height: 218px;
-}
 
 /*ICONS*/
 .icon-container {
@@ -186,13 +170,9 @@ body{
 	position: relative;
 	right: 0;
 	width: 70px;
-	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(100, 100, 100, 0.31);
-	-moz-box-shadow: inset 0px 0px 0px 1px rgba(100, 100, 100, 0.31);
-	box-shadow: inset 0px 0px 0px 1px rgba(100, 100, 100, 0.31);
+	box-shadow: inset 0px 0px 0px 1px rgba(100, 100, 100, .31);
 }
 .border-radius {
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
 	border-radius: 500px;
 }
 

@@ -4,7 +4,7 @@ angular.module('core').directive('refreshable', [function () {
     return {
         restrict: 'A',
         scope: {
-            refresh: "=refreshable"
+            refresh: 'refreshable'
         },
         link: function (scope, element, attr) {
             var refreshMe = function () {
