@@ -1,0 +1,27 @@
+<div class="container" data-ng-controller="HeaderController">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-ng-click="toggleCollapsibleMenu()">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a href="#section-1" du-smooth-scroll du-scrollspy class="navbar-brand">
+			<img alt="SEPLAN" width="318" class="img-responsive text-center" src="modules/core/img/brand/logo2.png" />
+		</a>
+	</div>
+	<nav class="collapse navbar-collapse" collapse="!isCollapsed" role="navigation">
+
+		<ul class="nav navbar-nav navbar-right" data-ng-hide="authentication.user">
+			<li><a href="#section-1" offset="70" du-smooth-scroll du-scrollspy>HOME</a></li>
+			<li><a href="#section-2" offset="70" du-smooth-scroll du-scrollspy>SOBRE O SITE</a></li>
+		    <li><a href="#section-3" offset="70" du-smooth-scroll du-scrollspy>COMPROMISSOS</a></li>
+		    <!-- <li><a href="#section-8" du-smooth-scroll du-scrollspy>NOTÍCIAS</a></li> -->
+		    <li><a href="#section-5" offset="70" du-smooth-scroll du-scrollspy>SUPERINTENDÊNCIAS</a></li>
+		    <li><a href="#section-6" offset="70" du-smooth-scroll du-scrollspy>MAPAS</a></li>
+		    <li><a href="#section-4" offset="70" du-smooth-scroll du-scrollspy>COMPETÊNCIAS</a></li>
+		</ul>
+
+	</nav>
+</div>
+<div class="faixa"></div>

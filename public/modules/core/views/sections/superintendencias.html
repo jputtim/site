@@ -1,0 +1,22 @@
+<div class="section-container">
+    <!-- <div class="iphone" style=" background:#fff; z-index: 100000000000000;" bs-affix data-offset-top="1300" > -->
+    <div ui-scrollfix="1300" id="ui-scroll-fix-element-1" >
+        <div class="container">
+            <div class="big-title">
+                <div style="float:left; padding-top: 20px;"><h3>NOSSAS <span>SUPERINTENDÊNCIAS</span> </h3></div>
+                <div style="float:left; margin: 45px 0 0 25px;">
+                    <a href=""  ng-repeat="tab in tabs2" ng-click="tabs2[$index].active = true" data-ng-class="{'active' : tabs2[$index].active == true}"> {{tab.title}} </a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-title"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box text-justify">
+        <tabset id="maps" type="pills">
+            <tab ng-repeat="tab in tabs2" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
+                <div data-ng-include="tab.template" style="margin-top: 30px;"></div>
+            </tab>
+        </tabset>
+    </div>
+</div>

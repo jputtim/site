@@ -1,0 +1,84 @@
+<div class="container">
+	<div class="col-sm-12">
+		</br>
+		Para que seja desenvolvido um plano ou projeto, para construção de uma escola, de um posto de saúde, para que se elabore um programa social ou se efetue uma parceria, necessariamente precisamos de informações, dados que possam contribuir com a tomada de decisão dos gestores. Portanto, a Secretaria de Planejamento através da equipe de Desenvolvimento Econômico e de Ciências e Tecnologia acompanha e trabalha com a sistematização de informação gerando painéis, gráficos e mapas que auxiliam no dia-a-dia da administração do nosso município.
+		</br></br>
+	</div>
+	<div class="col-sm-12" style="padding-bottom: 50px;">
+		<h3><strong>IDH | Índice de Desenvolvimento Humano</strong> <h6>Atlas do Desenvolvimento Humano 2013</h6></h3>
+		<div class="clearfix bubble">
+			<div class="col-sm-3 text-center ">
+				<div class="border-bubble" popover="O IDHM é resultado de um detalhado estudo econômico e social do país e é importante para subsidiar políticas públicas. Esse indicador fornece para a população e para os gestores municipais, uma importante forma de acompanhamento das condições de vida da nosso povo e nos direciona para a promoção de melhorias." popover-title="IDH Municipal" popover-trigger="mouseenter" popover-placement="top">
+					<div class="big-number btn-info principal">
+						0,685
+					</div>
+				</div>
+				<h5>IDH Municipal</h5>
+			</div>
+			<div class="col-sm-3 text-center ">
+				<div class="big-number btn-warning" popover="No IDHM, esse acesso ao conhecimento é medido pela escolaridade da população adulta e pela quantidade de matriculados da população jovem." popover-title="Acesso ao conhecimento" popover-trigger="mouseenter" popover-placement="top">
+					0,588
+				</div>
+				<h5>IDH-M de Educação</h5>
+			</div>
+			<div class="col-sm-3 text-center ">
+				<div class="big-number btn-info" popover="É a soma da renda de todos os habitantes, dividida pelo o número de pessoas que moram no município." popover-title="Padrão de vida" popover-trigger="mouseenter" popover-placement="top">
+					0,683
+				</div>
+				<h5>IDH-M de Renda</h5>
+			</div>
+			<div class="col-sm-3 text-center ">
+				<div class="big-number btn-success" popover="Medida pela esperança de vida ao nascer, em anos." popover-title="Vida longa e saudável" popover-trigger="mouseenter" popover-placement="top">
+					0,800
+				</div>
+				<h5>IDH-M de Longevidade</h5>
+			</div>
+		</div>
+		<div class="legenda">
+			<div class="text-center btn-danger" style="width:20%; float: left">
+				Muito Baixo
+				<div>
+					<small>0,000 até 0,499</small>
+				</div>
+			</div>
+			<div class="text-center btn-warning" style="width:20%; float: left">
+				Baixo
+				<div>
+					<small>0,500 até 0,599</small>
+				</div>
+			</div>
+			<div class="text-center btn-info" style="width:20%; float: left">
+				Médio
+				<div>
+					<small>0,600 até 0,699</small>
+				</div>
+			</div>
+			<div class="text-center btn-primary" style="width:20%; float: left">
+				Alto
+				<div>
+					<small>0,700 até 0,799</small>
+				</div>
+			</div>
+			<div class="text-center btn-success" style="width:20%; float: left">
+				Muito Alto
+				<div>
+					<small>0,800 até 1,000</small>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12" style="margin-top: 60px;">
+			<h3><strong>Evolução da população</strong>
+			<i  popover="Teixeira de Freitas é um município que apesar de muito jovem, teve um crescimento de 45% de sua população nos últimos 15 anos. Com tendência de crescer ainda mais, por conta das atividades econômicas em relação ao comercio, novas instituições de ensino superior e novos polos de saúde. Com esse crescimento aumenta-se também as responsabilidades da administração local, para planejar melhor o futuro de nossa cidade." popover-title="Informação" popover-trigger="mouseenter" popover-placement="right" class="fa fa-info-circle" style="color: #f0ad4e;"></i>
+			<h6>Linha do tempo | N° de habitantes</h6></h3>
+			<canvas id="bar" height="50" class="chart chart-bar" data="data" options="chartoptions" labels="labels"></canvas>
+		</div>
+		<div class="col-sm-12">
+			<br><br><br>
+			<h3><strong>PIB per capita</strong> 
+			<i  popover='O PIB per capita (produto interno bruto por pessoa), é calculado a partir da divisão de toda a riqueza produzida pelo número de habitantes da região, em um determinado período. Não devemos confundir com a medida de renda pessoal, e também não medimos com esse indicador, o nível de desigualdade de renda de uma sociedade. Mas, se a produção cresce mais ou menos do que a população num determinado ano, é essa relação que determina se, na média, a população está "enriquecendo" ou não.' popover-title="Informação" popover-trigger="mouseenter" popover-placement="right" class="fa fa-info-circle" style="color: #f0ad4e;"></i>
+			<h6>Série histórica | PIB a preços correntes | R$</h6>
+			</h3>
+			<canvas id="bar" height="50" class="chart chart-line" data="data_1" series="series_1"  labels="labels_1"></canvas>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,29 @@
+<div class="section-container">
+    <!-- <div class="iphone2" style=" background:#fff; z-index: 1000;" bs-affix data-offset-top="2600" > -->
+    <div ui-scrollfix="2600" id="ui-scroll-fix-element-2">
+        <div class="container">
+            <div class="big-title">
+                <div style="float:left; padding-top: 20px;"><h3>MAPAS <span>TEMÁTICOS</span></h3></div>
+                <div style="float:left; margin: 45px 0 0 25px;">
+                    <a href="#mapa-1" offset="150" du-smooth-scroll du-scrollspy>ORGÃOS PÚBLICOS</a>
+                    <a href="#mapa-2" offset="150" du-smooth-scroll du-scrollspy>OBRAS</a>
+                    <a href="#mapa-3" offset="150" du-smooth-scroll du-scrollspy>PAVIMENTAÇÃO</a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="border-title"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div ng-repeat="tab in tabs" id="{{tab.id}}">
+            <div class="map-title">
+                <div class="container">
+                    {{tab.title}}
+                </div>           
+            </div>
+            <iframe ng-src="{{tab.url}}" width="100%" height="600" zoom="15" style="margin-bottom: 50px;"></iframe>
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
