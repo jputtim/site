@@ -569,7 +569,7 @@ body{
 	padding: 20px;
 	font-weight: bold;
 	font-size: 12px;
-	text-decoration: none;
+	text-decoration: none; 
 }
 
 #ui-scroll-fix-element-1.ui-scrollfix a.active, #ui-scroll-fix-element-2.ui-scrollfix a.active{
