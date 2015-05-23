@@ -9,11 +9,12 @@ module.exports = {
 				'public/lib/fontawesome/css/font-awesome.css',
 				'public/lib/angular-chart.js/dist/angular-chart.css',
 				
-				'http://bxslider.com/lib/jquery.bxslider.css',
 				
 				'public/lib/textAngular/src/textAngular.css',
 
-				'public/lib/nvd3/nv.d3.css'
+				'public/lib/nvd3/nv.d3.css',
+				'http://bxslider.com/lib/jquery.bxslider.css',
+				// 'public/lib/bxSlider/dist/jquery.bxslider.css',
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -47,8 +48,6 @@ module.exports = {
 				
 				
 
-				'public/lib/jquery/dist/jquery.min.js',
-				'http://bxslider.com/lib/jquery.bxslider.js',
 
 				'public/lib/angular-jquery/dist/angular-jquery.min.js',
 				'public/lib/angular-bootstrap-affix/dist/angular-bootstrap-affix.js',
@@ -56,6 +55,10 @@ module.exports = {
 				'public/lib/textAngular/dist/textAngular-rangy.min.js',
 				'public/lib/textAngular/dist/textAngular-sanitize.min.js',
 				'public/lib/textAngular/dist/textAngular.min.js',
+				
+				'public/lib/jquery/dist/jquery.min.js',
+				'http://bxslider.com/lib/jquery.bxslider.js',
+				// 'public/lib/bxSlider/dist/jquery.bxslider.js',
 			]
 		},
 		css: 'public/dist/application.min.css',

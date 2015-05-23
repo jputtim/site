@@ -16,10 +16,7 @@ var ApplicationConfiguration = (function() {
 		'duScroll', 
 		'chart.js', 
 		'uiGmapgoogle-maps', 
-		'textAngular', 
 		'mgcrea.bootstrap.affix',
-		'nvd3ChartDirectives',
-		'amChartsDirective'
 	];
 
 	// Add a new vertical module

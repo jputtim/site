@@ -1,6 +1,6 @@
 <div class="section-container">
     <!-- <div class="iphone" style=" background:#fff; z-index: 100000000000000;" bs-affix data-offset-top="1300" > -->
-    <div ui-scrollfix="1300" id="ui-scroll-fix-element-1" >
+    <div ui-scrollfix="1300" class="ui-scroll-fix-element-1" >
         <div class="container">
             <div class="big-title">
                 <div style="float:left; padding-top: 20px;"><h3>NOSSAS <span>SUPERINTENDÊNCIAS</span> </h3></div>
@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="box text-justify">
-        <tabset id="maps" type="pills">
+        <tabset id="maps" class="maps" type="pills">
             <tab ng-repeat="tab in tabs2" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
                 <div data-ng-include="tab.template" style="margin-top: 30px;"></div>
             </tab>
